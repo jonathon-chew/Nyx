@@ -19,8 +19,8 @@ This is a simple Go script that fetches NASA's **Astronomy Picture of the Day (A
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/jonathon-chew/nasa-apod-downloader.git
-   cd nasa-apod-downloader
+   git clone https://github.com/jonathon-chew/Nyx.git
+   cd Nyx 
    ```
 
 2. Store your NASA API URL (with the API key) on the 5th line of a text file located at: ../scripts/key.txt
