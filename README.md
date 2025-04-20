@@ -51,6 +51,8 @@ Currently, the script only handles media of type "image". If the APOD is a video
 
 Make sure the APOD title is a valid filename. If needed, sanitize the title in the code before using it as a filename.
 
+The current script won't run until the key.txt file has a valid URL with an API key in it!
+
 ## 📜 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
