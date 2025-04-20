@@ -37,7 +37,7 @@ Example contents of ../scripts/key.txt:
 
 3. Run the script:
 
-    go run main.go
+    `go run main.go`
 
 ## 📂 Output
 
