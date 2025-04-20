@@ -59,6 +59,10 @@ func main(){
 
   // Read lines one by one
   for scanner.Scan() {
+    if scanner.Text() == "Line 5 should be a full URL that you can get from the NASA website by signing up for the API key" {
+      fmt.Println("Please enter a valid URL with API key from the NASA pictre of the day website on line 5 in the scripts/key.txt file")
+      return
+    }
     lineNumber++
     if lineNumber == 5 { // Get the 5th line
       key = scanner.Text()
