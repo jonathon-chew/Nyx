@@ -19,7 +19,7 @@ This is a simple Go script that fetches NASA's **Astronomy Picture of the Day (A
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/nasa-apod-downloader.git
+   git clone https://github.com/jonathon-chew/nasa-apod-downloader.git
    cd nasa-apod-downloader
    ```
 
