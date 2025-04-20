@@ -25,6 +25,7 @@ This is a simple Go script that fetches NASA's **Astronomy Picture of the Day (A
 
 2. Store your NASA API URL (with the API key) on the 5th line of a text file located at: ../scripts/key.txt
 
+```text
 Example contents of ../scripts/key.txt:
 
 - line 1
@@ -32,6 +33,7 @@ Example contents of ../scripts/key.txt:
 - line 3
 - line 4
 - https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY
+```
 
 3. Run the script:
 
