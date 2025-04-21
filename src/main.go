@@ -113,8 +113,9 @@ func main(){
         log.Fatal("Unable to determine user home directory:", err)
     }
 
-    fileName = filepath.Join(homeDir, "Picturess")
-    fileName = fileName + todaysResponse.Title + "." + extension[len(extension) - 1]
+    fileLocation := filepath.Join(homeDir, "Pictures")
+    toBeFileName := todaysResponse.Title + "." + extension[len(extension) - 1]
+    fileName = filepath.Join(fileLocation, toBeFileName)
 
     downloadImage(fileName, imageData)
 
