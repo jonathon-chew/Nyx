@@ -38,7 +38,7 @@ func downloadImage(fileName string, response *http.Response){
     log.Fatal(err)
   }
   
-  fmt.Printf("Image successfully downloaded and saved as %s", fileName)
+  fmt.Printf("Image successfully downloaded and saved as %s\n", fileName)
 
 }
 
