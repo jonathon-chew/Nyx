@@ -1,4 +1,4 @@
-# 📸 Nyx (Go)
+# 🌃 Nyx (Go)
 
 This is a simple Go script that fetches NASA's **Astronomy Picture of the Day (APOD)** and downloads it to your local machine. It uses the APOD API to retrieve the metadata and image URL, and saves the image with its title as the filename.
 
