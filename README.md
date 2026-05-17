@@ -1,6 +1,6 @@
 # 🌃 Nyx (Go)
 
-This is a simple Go script that fetches NASA's **Astronomy Picture of the Day (APOD)** and downloads it to your local machine. It uses the APOD API to retrieve the metadata and image URL, and saves the image with its title as the filename.
+This is a simple Go script that fetches NASA's **Astronomy Picture of the Day (APOD)** and downloads it to your local machine. It uses the APOD API to retrieve the metadata and image URL, then saves the image with its title as the filename.
 
 ## 🚀 Features
 
@@ -23,16 +23,12 @@ This is a simple Go script that fetches NASA's **Astronomy Picture of the Day (A
    cd Nyx 
    ```
 
-2. Store your NASA API URL (with the API key) on the 5th line of a text file located at: ../scripts/key.txt
+2. Store your NASA API key in a local, untracked file or environment variable before running the app.
 
 ```text
-Example contents of ../scripts/key.txt:
+Example format:
 
-- line 1
-- line 2
-- line 3
-- line 4
-- https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY
+https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY
 ```
 
 3. Run the script:
@@ -41,7 +37,7 @@ Example contents of ../scripts/key.txt:
 
 ## 📂 Output
 
-If the media type of the APOD is an image, it will be downloaded and saved with its title as the filename (e.g. A Journey Through the Milky Way.jpg).
+If the media type of the APOD is an image, it will be downloaded and saved with its title as the filename, for example `A Journey Through the Milky Way.jpg`.
 
 The script also prints basic metadata like title, media type, and URL to the console.
 
@@ -51,7 +47,7 @@ Currently, the script only handles media of type "image". If the APOD is a video
 
 Make sure the APOD title is a valid filename. If needed, sanitize the title in the code before using it as a filename.
 
-The current script won't run until the key.txt file has a valid URL with an API key in it!
+The current script will not run until a valid NASA API key is available.
 
 ## 📜 License
 
